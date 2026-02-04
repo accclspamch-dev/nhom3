@@ -1,0 +1,34 @@
+[
+  {
+    "ContainingType": "SudokuServer.Api.Controllers.HighscoreController",
+    "Method": "Post",
+    "RelativePath": "api/Highscore",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "SudokuServer.Data.Entities.SingleHighscore",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SudokuServer.Api.Controllers.HighscoreController",
+    "Method": "Top",
+    "RelativePath": "api/Highscore/top",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "difficulty",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
